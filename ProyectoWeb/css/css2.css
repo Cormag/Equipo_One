@@ -1,0 +1,27 @@
+body {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	}
+				
+	nav  {
+	text-align: left;
+	}
+	
+	#calendar {
+	width: 900px;
+	margin: 0 auto;
+	}
+
+	.seccion  {
+	padding-top: 2em; padding-right: 2em; padding-bottom: 2em; padding-left: 2em;	
+	background-color: #FFF;
+  	border-style: solid;
+  	border-color: #000;
+	border-width: thick;
+	}
+
+header, article, nav, aside, footer {
+	padding-top: 2em; padding-right: 2em; padding-bottom: 2em; padding-left: 2em;	
+}

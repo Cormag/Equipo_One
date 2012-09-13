@@ -1,0 +1,96 @@
+*{margin:auto;}
+	
+	body
+	{
+		background-color:#FFffff;
+		margin:0px;
+		width:700px;
+		position:absolute;
+		left:50%;
+		margin-left:-350px;
+	}
+	
+	header h3
+	{
+	margin-left:350px;
+	text-align:left;
+	font-size: 20pt;
+	font-family: Verdana;
+	float: left;
+	}
+	.inicio{
+	margin-left:250px;
+	float: left;
+	border: 2px solid;
+	background-color: #FFFFFF;
+	width :80px;
+	border-bottom: outset;
+	text-align: center;
+	}
+	.cal{
+	float: left;
+	border: 2px solid;
+	background-color: #FFFFFF;
+	width :100px;
+	border-bottom: outset;
+	text-align: center;
+	}
+	.ev{
+	float: left;
+	border: 2px solid;
+	background-color: #FFFFFF;
+	width :140px;
+	border-bottom: outset;
+	text-align: center;
+	}
+
+div.clear { clear: both; }
+	
+	div.mur
+	{
+	background-color:#FFFFFF;
+	border-style:solid;
+	margin-left:0px;
+	text-align:left;
+	width:700px;
+	}
+	.imaa{
+	margin-left:100px;
+	}
+	 div.otromur
+	 {
+	background-color:#FFFFFF;
+	border-style:solid;
+	margin-left:350px;
+	text-align:left;
+	width:700px;
+	}
+	.fiesta{
+	margin-left:100px;
+	}
+	.pubb{
+	margin-left:300px;
+	}
+	footer{
+	margin-left:0px;
+	margin-rigth:0px;
+	width:700px;
+	}
+	.derecha { 
+	float: right;
+	border-style:solid;
+	border-bottom: outset;
+	text-align: center;
+	width:100px;
+	margin-right:0px;	
+	}
+	.izquierda { 
+	float: left;
+	border-style:solid;
+	border-bottom: outset;
+	text-align: center;
+	width:100px;
+	margin-left:0px;
+}
+	
+	div.clear { clear: both; }

@@ -1,12 +1,28 @@
-body {
-	margin-top: 40px;
-	text-align: center;
-	font-size: 14px;
-	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	*{margin:auto;}
+	
+	div#paginacion {
+	  border: 1px solid #CCC;
+	  background-color: #E0E0E0;
+	  padding: 1em;
 	}
-				
-	nav  {
-	text-align: left;
+	
+	div.clear  { 
+		clear: both;
+		text-align: center; 
+	}
+	
+	.derecha { 
+	float: right;
+	border-style:solid;
+	text-align: center;
+	width:100px;
+	}
+	
+	.derecha_ev { 
+	float: right;
+	border-style:solid;
+	text-align: center;
+	width:150px;
 	}
 	
 	#calendar {
@@ -22,6 +38,11 @@ body {
 	border-width: thick;
 	}
 
+	body {
+		text-aling: center;	
+	}
+	
 header, article, nav, aside, footer {
-	padding-top: 2em; padding-right: 2em; padding-bottom: 2em; padding-left: 2em;	
+	padding-top: 2em; padding-right: 2em; padding-bottom: 2em; padding-left: 2em;
+	text-align: center; 
 }

@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Hacker Garage :: Eventos</title>
+		<link rel="stylesheet" type="text/css" href="css/css1.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/css2.css" media="screen" />
 		<link rel='stylesheet' type='text/css' href='js/fullcalendar/fullcalendar.css' />
 		<link rel='stylesheet' type='text/css' href='js/fullcalendar/fullcalendar.print.css' media='print' />
@@ -34,17 +35,23 @@
 		</script>
 	</head>
 	<body>
-		<header>
-			<div id="paginacion">
-				  <div class="clear"><h1>Calendario</h1></div>
-				  <span class="derecha_ev"><h4>Enviar Evento</h4></span>
-				  <span class="derecha"><h4>Calendario</h4></span>
-				  <span class="derecha"><h4>Inicio</h4></span>
-			</div>
+		<header class="imaa">
+			<h3>Calendario</h3>
+
+				<div class="inicio">
+				<h4>Inicio</h4>
+				</div>
+				<div class="cal">
+					<h4>Calendario</h4>
+				</div>
+				<div class="ev">
+					<h4>Enviar Evento</h4>
+				</div>
+
 		</header>
 		<nav>
 		</nav>
-		<article>
+		<article class="imaa">
 			<seccion>
 					<div id='calendar' class="seccion"></div>
 			</seccion>

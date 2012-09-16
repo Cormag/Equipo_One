@@ -1,14 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE HTML>
+<html lang="es">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
 		<title>Hacker Garage :: Eventos</title>
 		<link rel="stylesheet" type="text/css" href="css/css2.css" media="screen" />
+		<link rel='stylesheet' type='text/css' href='js/cupertino/theme.css' />
 		<link rel='stylesheet' type='text/css' href='js/fullcalendar/fullcalendar.css' />
 		<link rel='stylesheet' type='text/css' href='js/fullcalendar/fullcalendar.print.css' media='print' />
 		<script type='text/javascript' src='js/jquery/jquery-1.8.1.min.js'></script>
 		<script type='text/javascript' src='js/jquery/jquery-ui-1.8.23.custom.min.js'></script>
 		<script type='text/javascript' src='js/fullcalendar/fullcalendar.min.js'></script>
+		
+		
 		<script type='text/javascript'>
 		
 			$(document).ready(function() {
@@ -19,6 +23,7 @@
 				var y = date.getFullYear();
 				
 				$('#calendar').fullCalendar({
+					theme: true,
 					header: {
 						left: 'prev today next',
 						center: 'title',
@@ -28,30 +33,40 @@
 					editable: true,
 					
 				});
-				
+								
 			});
 		
 		</script>
 	</head>
 	<body>
 		<header>
-			<div id="paginacion">
-				  <div class="clear"><h1>Calendario</h1></div>
-				  <span class="derecha_ev"><h4>Enviar Evento</h4></span>
-				  <span class="derecha"><h4>Calendario</h4></span>
-				  <span class="derecha"><h4>Inicio</h4></span>
+			<div id="titulo">
+				<h3>Calendario</h3>
 			</div>
+			<div class="inicio">
+				<h4>Inicio</h4>
+			</div>
+			<div class="cal">
+				<h4>Calendario</h4>
+			</div>
+			<div class="ev">
+				<h4>Enviar Evento</h4>
+			</div>
+			<div>
+				<img src="http://pymesempresariales.com/wp-content/uploads/rss_logo.jpg" height="45" alt="" />
+			</div>
+			<div class="clear"></div>
 		</header>
 		<nav>
 		</nav>
 		<article>
-			<seccion>
+			<section>
 					<div id='calendar' class="seccion"></div>
-			</seccion>
+			</section>
 		</article>
 		<aside></aside>
 		<footer>
-			<h2>&copy;Copyrigth 2012 @Equipo_One</h2>
+				<h3>Copyrigth 2012 @Equipo_One</h3>
 		</footer>
 	</body>
 </html>

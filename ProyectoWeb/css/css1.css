@@ -1,5 +1,5 @@
 *{padding:auto;margin:auto;}
-	
+
 	body
 	{
 		background-color:#FFF;
@@ -10,12 +10,12 @@
 		margin-left:-350px;
 		border:0px;
 	}
-	
+
 	header div{
 /*		height:50px;*/
 		padding:10px;
 	}
-	
+
 	header div img{	
 		float: left;
 		background-color: #FFFFFF;
@@ -28,7 +28,7 @@
 		width:700px;
 		border:0px;
 	}
-	
+
 	section{
 		position:relative;
 		border:solid;
@@ -36,15 +36,15 @@
 		margin-top:15px;
 		width:696px;
 	}
-	
-	
+
+
 	#titulo{
 		margin-left:15px;
 		float: left;
 		width :150px;
 		text-align: left;
 	}
-	
+
 	#titulo h3{
 		text-align:left;
 		font-size: 28pt;
@@ -52,7 +52,7 @@
 		float: left;
 		margin-top:10px;
 	}
-	
+
 	.inicio{
 		margin-top:20px;
 		margin-left:45px;
@@ -88,7 +88,7 @@
 		margin-left:300px;
 		margin-top:25px;
 	}
-	
+
 	footer{
 		width:700px;
 		margin:20px 0px 20px 0px;
@@ -109,13 +109,13 @@
 		width:100px;
 		margin-left:0px;
 	}
-	
+
 	div.clear { clear: both; }
-	
+
 	.letras{
 		margin:20px 0px;	
 	}
-	
+
 	.articulo{
 		text-align:center;
 		position:relative;
@@ -125,7 +125,7 @@
 		margin-left:-43%;
 
 	}
-	
+
 	.articulo h2{
 		text-align:left;
 		margin:15px 0px;	

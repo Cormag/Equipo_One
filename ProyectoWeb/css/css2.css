@@ -125,5 +125,23 @@
 		color: #000000;
 	}
 
+		.simple {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+	.inicio:hover {
+	background: #CCB;
+	}
+	
+	.cal:hover {
+	background: #CCB;
+	}
+	
+	.ev:hover {
+	background: #CCB;
+	}
+
+	
 	div.clear { clear: both; }
 

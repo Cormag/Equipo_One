@@ -52,7 +52,14 @@
 		float: left;
 		margin-top:10px;
 	}
+	
+	#titulo_ev{
+		float: left;
+		width :600px;
+		text-align: left;
+	}
 
+	
 	.inicio{
 		margin-top:20px;
 		margin-left:45px;
@@ -63,6 +70,16 @@
 		border-bottom: outset;
 		text-align: center;
 	}
+	
+	.simple {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+	.inicio:hover {
+	background: #CCB;
+	}
+	
 	.cal{
 		margin-top:20px;
 		float: left;
@@ -72,6 +89,11 @@
 		border-bottom: outset;
 		text-align: center;
 	}
+	
+	.cal:hover {
+	background: #CCB;
+	}
+	
 	.ev{
 		margin-top:20px;
 		float: left;
@@ -80,6 +102,10 @@
 		width :140px;
 		border-bottom: outset;
 		text-align: center;
+	}
+	
+	.ev:hover {
+	background: #CCB;
 	}
 
 	div.clear { clear: both; }
@@ -123,7 +149,6 @@
 		margin-top:20px;
 		left:50%;
 		margin-left:-43%;
-
 	}
 
 	.articulo h2{

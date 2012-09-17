@@ -1,0 +1,162 @@
+	*{padding:auto;margin:auto;}
+
+	body
+	{
+		background-color:#FFF;
+		margin:0px 0px 20px 0px;
+		width:700px;
+		position:relative;
+		left:50%;
+		margin-left:-350px;
+		border:0px;
+	}
+
+	header div{
+/*		height:50px;*/
+		padding:10px;
+	}
+
+	header div img{	
+		float: left;
+		background-color: #FFFFFF;
+		text-align: center;
+		margin-left:20px;
+		margin-top:8px;
+	}
+
+	article{
+		width:700px;
+		border:0px;
+	}
+
+	section{
+		position:relative;
+		border:solid;
+		border-width:2px;
+		margin-top:15px;
+		width:696px;
+	}
+
+
+	#titulo{
+		margin-left:15px;
+		float: left;
+		width :150px;
+		text-align: left;
+	}
+
+	#titulo h3{
+		text-align:left;
+		font-size: 28pt;
+		font-family: Verdana;
+		float: left;
+		margin-top:10px;
+	}
+
+	#titulo_ev{
+		float: left;
+		width :600px;
+		text-align: left;
+	}
+
+
+	.inicio{
+		margin-top:20px;
+		margin-left:45px;
+		float: left;
+		border: 2px solid;
+		background-color: #FFFFFF;
+		width :80px;
+		border-bottom: outset;
+		text-align: center;
+	}
+
+	.simple {
+	text-decoration: none;
+	color: #000000;
+	}
+
+	.inicio:hover {
+	background: #CCB;
+	}
+
+	.cal{
+		margin-top:20px;
+		float: left;
+		border: 2px solid;
+		background-color: #FFFFFF;
+		width :100px;
+		border-bottom: outset;
+		text-align: center;
+	}
+
+	.cal:hover {
+	background: #CCB;
+	}
+
+	.ev{
+		margin-top:20px;
+		float: left;
+		border: 2px solid;
+		background-color: #FFFFFF;
+		width :140px;
+		border-bottom: outset;
+		text-align: center;
+	}
+
+	.ev:hover {
+	background: #CCB;
+	}
+
+	div.clear { clear: both; }
+	
+	.pub{
+	float: left;
+	margin-left:0px;
+
+	}
+	.pubb{
+	float: right;
+	margin-right:0px;
+	}
+
+	footer{
+		width:700px;
+		margin:40px 0px 20px 0px;
+	}
+	.derecha { 
+		float: right;
+		border-style:solid;
+		border-bottom: outset;
+		text-align: center;
+		width:100px;
+		margin-right:0px;	
+	}
+	.izquierda { 
+		float: left;
+		border-style:solid;
+		border-bottom: outset;
+		text-align: center;
+		width:100px;
+		margin-left:0px;
+	}
+
+	div.clear { clear: both; }
+
+	.letras{
+		margin:20px 0px;	
+	}
+
+	.articulo{
+		text-align:center;
+		position:relative;
+		width:600px;		
+		margin-top:20px;
+		left:50%;
+		margin-left:-43%;
+	}
+
+	.articulo h2{
+		text-align:left;
+		margin:15px 0px;	
+	}

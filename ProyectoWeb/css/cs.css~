@@ -1,0 +1,6 @@
+body{
+	background-image: url("images/logo1.png");
+	background-repeat:repeat-y;
+	}
+
+	

@@ -197,9 +197,5 @@
 	.letras{
 		margin:20px 0px;	
 	}
-	
-	#pieCalendario{
-		margin-top:-40px;
-	}
 
 

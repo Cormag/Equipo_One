@@ -110,6 +110,9 @@
 	float: right;
 	margin-right:0px;
 	}
+	.negritas { 
+	font-weight:bold; 
+	} 
 	
 	.articulo{
 		text-align:center;
